@@ -1,0 +1,194 @@
+body{
+margin: 0 auto;
+background-color: #ccc ;
+font-family: 'Open Sans', Arial, sans-serif;
+font-size: 17px;
+}
+.img-parallax{
+	background-image: url("imgs/simple-house-01.jpg");
+	position: relative;
+	
+	height: 600px;
+	width: 1200px;
+	
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.header-title{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.header-decsription{
+	margin:0px;
+font-weight: 400;
+font-size: 15px;
+}
+.text-box{
+	display: inline-block;
+
+}
+.header-bar{
+	position: relative;
+	display: inline-block;
+
+	bottom: 100px;
+	left : 50px;
+	color: white;
+	width: 50%;
+	margin :0;
+	padding-right: 15px;
+	padding-left: 15px;
+    }
+
+.nav-menu{
+
+padding: 0px 100px;
+position: relative;
+left : 100%;
+bottom: 50px;
+}
+.nav-menu-item{
+margin: 0px 25px;
+padding-bottom: 10px;
+font-size: 20px;	
+list-style: none;
+display: inline-block;
+cursor: pointer;
+text-decoration: none;
+color: white;
+}
+
+.nav-menu-item:hover{
+border-bottom: 1px solid white;
+}
+.nav-item-active{
+border-bottom: 1px solid white;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+   	margin:0 auto; 
+   	background-color: white;
+}
+.logo-img{
+	display: inline-block;
+}
+
+
+.welcome-section{
+	text-align: center;
+
+
+}
+.welcome-section-para{
+	color: #626364;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+.welcome-section-title{
+	padding-bottom: 30px;
+	font-weight: 400;
+	font-size: 32px;
+	margin: 0px;
+}
+
+.menu-list-item{
+	list-style: none;
+	display: inline-block;
+	border: 1px solid #2F956D;
+	color: #2F956D;
+	padding: 10px 30px;
+	margin:10px;
+	cursor: pointer;
+	}
+.active{
+	list-style: none;
+	display: inline-block;
+	border: 1px solid #2F956D;
+	color: white;
+	background-color: #2F956D; 
+}
+.menu-list-item:hover{
+	background-color: #2F956D;
+	color: white;
+}
+.menu-items-grid{
+
+}
+.item{
+	position: relative;
+	left:30px;
+	width: 250px;
+	padding: 0 15px;
+	display: inline-block;
+}
+.item-name{font-weight: 400;
+	justify-content: center;
+	margin: 15px 0px 20px 0px;
+	color: #1A6692;
+	font-size: 25px;
+	
+}
+.item-description{
+	margin: 0px 0px 20px 0px;
+	color: #626364;
+	font-size: 15px;
+	line-height: 1.8;
+}
+.item-price{
+	color: #2F956D;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+.more-info{
+	
+position: relative;
+left :30px;
+padding-bottom: 50px;
+}
+.more-info-box{
+
+height: 100%;
+display: inline-block;
+position: relative;
+left: 50px;
+width: 40%;
+bottom: 90px;
+padding-right: 20px;
+}
+.more-info-heading{
+font-weight: 400;
+color: #1A6692;
+font-size: 25px;
+margin-top: 0px;
+margin-bottom: 25px;
+
+}
+.more-info-description{
+line-height: 1.8;
+font-size: 17px;
+color: #626364;
+}
+.read-more{
+color: #626364;
+border: 1px solid #ccc;
+height: 20px;
+padding: 10px;
+width: 100px;
+display: block;
+text-align: center;
+position: relative;
+left:75%;
+cursor: pointer;
+text-decoration: none;
+}
+.read-more:hover{
+	background-color: #ccc;
+	color: white;
+}
+
